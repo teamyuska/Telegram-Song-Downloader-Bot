@@ -12,7 +12,7 @@ from os.path import join, dirname
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("6746110732:AAEqr0qHkncbPANl4sIyY3Zsrz08qg88tkc")
 bot = telepotpro.Bot(TOKEN)
 
 class song:
@@ -57,7 +57,7 @@ class Chat:
     def __init__(self, msg):
         self.chat_id = msg['chat']['id']
         self.user_input = msg['text']
-        self.user_input = self.user_input.replace('@songdownload597_bot', '')
+        self.user_input = self.user_input.replace('@songazerbot', '')
         self.user_name = msg['from']['first_name']
         self.message_id = msg['message_id']
 
