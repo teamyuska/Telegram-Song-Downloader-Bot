@@ -11,5 +11,5 @@ RUN apt-get -qq install -y \
     ffmpeg \
     opus-tools
 
-
+RUN pip3 install -U pip
 RUN pip3 install -U -r requirements.txt
