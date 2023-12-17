@@ -1,5 +1,0 @@
-youtube-dl
-youtube-search-python
-telepotpro
-python-dotenv
-pyrogram
